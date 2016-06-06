@@ -1,0 +1,16 @@
+.DS_Store
+.bundle
+.env
+.idea
+.php_cs.cache
+.project
+.secret
+.vagrant
+/log/*.log
+/tmp
+/vendor
+database.yml
+npm-debug.log
+secret.yml
+tags
+*.log
