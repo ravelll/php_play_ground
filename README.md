@@ -1,6 +1,6 @@
 # PHP play ground
 
-## install
+## prepare
 ```sh
 git clone git@github.com:ravelll/php_play_ground.git
 cd php_play_ground
@@ -9,7 +9,7 @@ vagrant up
 bundle exec itamae ssh --vagrant --host app roles/app.rb
 ```
 
-### test
+## test
 ```sh
 TARGET_HOST=app bundle _1.10.6_ exec rspec
 ```
