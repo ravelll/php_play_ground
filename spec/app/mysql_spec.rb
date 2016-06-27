@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe service('mysql') do
+describe service('mysqld') do
   it { should be_enabled }
   it { should be_running }
 end
