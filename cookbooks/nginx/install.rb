@@ -8,3 +8,7 @@ end
 service 'nginx' do
   action [:enable, :start]
 end
+
+directory '/var/www/app' do
+  action :create
+end
