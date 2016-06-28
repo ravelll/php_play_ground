@@ -11,6 +11,10 @@ Vagrant.configure(2) do |config|
       vbox.customize ["modifyvm", :id, "--natdnshostresolver1", "off"]
     end
 
+    c.vm.network :forwarded_port, guest: 80, host: 8080
+    c.vm.network :forwarded_port, guest: 443, host: 8443
+    c.vm.network :forwarded_port, guest: 3306, host: 13306
+
     c.vm.synced_folder ".", "/vagrant"
   end
 end
