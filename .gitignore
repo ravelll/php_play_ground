@@ -14,3 +14,4 @@ npm-debug.log
 secret.yml
 tags
 *.log
+app
