@@ -8,10 +8,12 @@
   libxml2-devel
   libjpeg-turbo-devel
   libmcrypt-devel
+  libmemcached
   libpng-devel
   libtidy-devel
   libxslt-devel
   openssl-devel
+  php-mbstring
   php-mysqlnd
   readline-devel
 }.each do |pkg|
