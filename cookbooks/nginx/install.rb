@@ -9,6 +9,11 @@ service 'nginx' do
   action [:enable, :start]
 end
 
-directory '/var/www/app' do
+directory '/var/www' do
   action :create
+end
+
+link '/var/www/app' do
+  action :create
+  to '/vagrant/app'
 end
