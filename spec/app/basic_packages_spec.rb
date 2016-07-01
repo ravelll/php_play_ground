@@ -10,12 +10,15 @@ require 'spec_helper'
   libxml2-devel
   libjpeg-turbo-devel
   libmcrypt-devel
+  libmemcached-devel
   libpng-devel
   libtidy-devel
   libxslt-devel
   openssl-devel
+  php-mbstring
   php-mysqlnd
   readline-devel
+  vim-enhanced
 }.each do |pkg|
 
   describe package pkg do
