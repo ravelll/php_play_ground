@@ -10,12 +10,5 @@ execute 'install php' do
 end
 
 remote_file '/usr/local/phpenv/versions/7.0.8/etc/php.ini'
-remote_file '/etc/php-fpm.conf'
 
-package 'php-fpm' do
-  action :install
-end
-
-service 'php-fpm' do
-  action [:enable, :start]
-end
+include_recipe './php-fpm.rb'
