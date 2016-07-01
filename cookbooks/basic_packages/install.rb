@@ -16,6 +16,7 @@
   php-mbstring
   php-mysqlnd
   readline-devel
+  vim-enhanced
 }.each do |pkg|
   package pkg do
     action :install
