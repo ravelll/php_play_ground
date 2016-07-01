@@ -1,4 +1,5 @@
 execute 'install memcached' do
+  user 'vagrant'
   command 'git clone https://github.com/php-memcached-dev/php-memcached.git &&\
   cd php-memcached &&\
   git checkout remotes/origin/php7 &&\
