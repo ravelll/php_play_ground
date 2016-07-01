@@ -8,7 +8,7 @@
   libxml2-devel
   libjpeg-turbo-devel
   libmcrypt-devel
-  libmemcached
+  libmemcached-devel
   libpng-devel
   libtidy-devel
   libxslt-devel
